@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Dial Client</string>
+<string name="unkown_tgt_name">Unknown</string>
+<string name="unkown_tgt_addr">unknown address</string>
+<string name="ok_text">OK</string>
+
+<!-- Manifest labels -->
+<string name="finder_label">Connect to DIAL Server</string>
+
+<!--  Main menu -->
+<string name="menu_switch">Switch DIAL Server</string>
+<string name="menu_about">About</string>
+
+<!-- Settings -->
+<string name="unknown_build">Unknown</string>
+
+<!--  Device Finder - more devices -->
+<string name="finder_searching">Searching for DIAL Server devices on your network.</string>
+<string name="finder_searching_with_ssid">Searching for DIAL Server devices on %s network.</string>
+<string name="finder_add_other">Add other DIAL Server</string>
+<string name="finder_connect">Connect</string>
+<string name="finder_cancel">Cancel</string>
+<string name="finder_manual">Add DIAL Server manually</string>
+<string name="finder_configure">Configure</string>
+<string name="finder_no_devices">No DIAL Server devices found</string>
+<string name="finder_no_devices_with_ssid">No DIAL Server devices found on %s</string>
+<string name="finder_wifi_not_available">WiFi network not available</string>
+<string name="finder_recently_connected">Recently connected devices</string>
+<string name="finder_connected">Connected to \"%s\"</string>
+
+<!-- Manual IP dialog strings -->
+<string name="manual_ip_label">Add DIAL Server</string>
+<string name="manual_ip_entry_label">IP Address</string>
+<string name="manual_ip_hint">xxx.xxx.xxx.xxx</string>
+<string name="manual_ip_message">You can find IP address of your DIAL Server device by going to:\nSettings &gt; Network &gt; Network Information</string>
+<string name="manual_ip_error_address">Invalid address.</string>
+<string name="manual_ip_default_box_name">Unknown DIAL Server</string>
+<string name="manual_ip_connect">Connect</string>
+<string name="manual_ip_cancel">Cancel</string>
+
+</resources>

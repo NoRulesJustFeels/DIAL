@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/manual_ip_layout"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:minWidth="280dip"
+              android:padding="10dip">
+
+  <EditText android:id="@+id/manual_ip_entry"
+            android:hint="@string/manual_ip_hint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+  <TextView android:id="@+id/manual_ip_help"
+            android:text="@string/manual_ip_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

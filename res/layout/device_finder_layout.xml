@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/device_finder"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:visibility="invisible"
+    android:background="@android:color/black">
+
+  <Button android:id="@+id/button_manual"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/finder_manual"
+          android:textSize="19sp"/>
+
+  <ListView android:id="@+id/stb_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:choiceMode="singleChoice"/>
+
+</LinearLayout>
