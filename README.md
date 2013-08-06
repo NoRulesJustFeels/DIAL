@@ -1,5 +1,6 @@
 DIAL
 ====
+<p><img src="http://chromecast.entertailion.com/chromecastanimation100.gif"/></p>
 
 <p>This is DIAL client written in Android. The <a href="http://www.dial-multiscreen.org/dial-protocol-specification">DIAL protocol</a> allows TV devices to be discovered and controlled.</p>
 
@@ -9,7 +10,7 @@ The ChromeCast device also does not need to have developer options enabled.
 
 <p>After the DIAL servers are discovered and the user selects a particular device in the UI, an attempt is made to connect to the ChromeCast device and play a YouTube video.
 Most of the ChromeCast-specific logic is contained in MainActivity.onActivityResult. 
-Operations are done via HTTP and Web Sockets. ChromeCast devices use a protocol called RAMP for media playback which is not currently supported by the client.
+Operations are done via HTTP and Web Sockets. ChromeCast apps use a protocol called RAMP for media playback which is not currently supported by the client.
 </p>
 
 <p>This holds promise for being to control other aspects of the ChromeCast device using open API's. How the CromeCast device works is now better understood (especially since the low level protocol details aren't documented by Google). 
